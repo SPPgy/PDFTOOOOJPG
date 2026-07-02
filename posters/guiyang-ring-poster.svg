@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">贵阳人民大道、太金线、数博大道、黔灵山路环形路网海报</title>
+  <desc id="desc">米色复古地图风格海报，突出由人民大道、太金线、数博大道和黔灵山路围合的圆形道路。</desc>
+  <defs>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="18" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.055"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply"/>
+    </filter>
+    <style>
+      .bg{fill:#f3eadf}.minor{fill:none;stroke:#d9b9aa;stroke-width:1.15;opacity:.48;stroke-linecap:round}.mid{fill:none;stroke:#c98f75;stroke-width:2.2;opacity:.54;stroke-linecap:round}.water{fill:none;stroke:#9dc6c5;stroke-width:16;opacity:.72;stroke-linecap:round}.park{fill:#e5eadb;opacity:.7}.main{fill:none;stroke:#a65a2b;stroke-width:6;opacity:.9;stroke-linecap:round}.ringBase{fill:none;stroke:#f3eadf;stroke-width:27;stroke-linecap:round}.ring{fill:none;stroke:#9f4f21;stroke-width:17;stroke-linecap:round;stroke-linejoin:round}.ringGlow{fill:none;stroke:#7a3518;stroke-width:22;opacity:.13;stroke-linecap:round;stroke-linejoin:round}.label{font-family:Arial,'Helvetica Neue',sans-serif;fill:#9f4f21;letter-spacing:8px}.small{font-family:Arial,'Helvetica Neue',sans-serif;fill:#a76643;letter-spacing:2px}.roadLabel{font-family:Arial,'Helvetica Neue',sans-serif;fill:#8d4925;font-size:20px;font-weight:700;letter-spacing:1px}.pin{fill:#f3eadf;stroke:#9f4f21;stroke-width:4}
+    </style>
+  </defs>
+  <rect class="bg" width="1080" height="1350"/>
+  <g filter="url(#paper)">
+    <path class="park" d="M110 190 C210 80 330 85 420 160 C500 230 505 350 430 425 C335 520 165 495 95 380 C55 315 60 245 110 190Z"/>
+    <path class="park" d="M760 112 C890 70 1000 125 1025 238 C1052 365 955 455 825 445 C705 436 640 350 660 248 C672 185 702 135 760 112Z"/>
+    <path class="water" d="M-40 865 C140 805 250 760 375 665 C520 555 620 522 780 470 C880 438 990 383 1120 292"/>
+    <path class="water" d="M238 -35 C245 130 255 300 238 470 C220 640 196 820 225 1010"/>
+    <g id="background-roads">
+      <path class="minor" d="M20 88 C168 160 285 190 472 200 C650 210 820 185 1064 125"/><path class="minor" d="M5 172 C185 224 335 238 508 255 C690 272 860 245 1074 204"/><path class="minor" d="M-30 310 C155 318 325 314 510 326 C703 338 880 330 1115 278"/><path class="minor" d="M-18 442 C196 418 345 420 540 438 C730 456 875 470 1118 418"/><path class="minor" d="M-40 570 C170 552 333 555 520 575 C700 595 902 608 1120 560"/><path class="minor" d="M-20 707 C155 682 328 704 505 718 C700 734 880 742 1100 708"/><path class="minor" d="M-30 1018 C162 996 318 1004 505 1028 C690 1052 860 1048 1120 1010"/><path class="minor" d="M80 -40 C105 130 123 310 125 500 C128 705 105 890 64 1160"/><path class="minor" d="M174 -40 C184 156 182 310 194 512 C206 700 218 875 250 1180"/><path class="minor" d="M345 -35 C330 150 323 320 332 498 C342 682 365 855 405 1185"/><path class="minor" d="M466 -40 C470 145 456 315 480 500 C505 690 535 865 572 1185"/><path class="minor" d="M590 -40 C602 130 604 295 622 472 C640 650 670 855 710 1185"/><path class="minor" d="M738 -35 C720 122 707 280 720 460 C735 662 760 850 805 1190"/><path class="minor" d="M878 -35 C846 135 830 285 838 470 C847 682 880 878 930 1190"/><path class="minor" d="M1015 -40 C982 138 965 315 970 505 C976 710 1005 895 1058 1190"/>
+      <path class="mid" d="M-55 250 C155 278 330 275 518 295 C706 315 880 300 1135 238"/><path class="mid" d="M-45 645 C145 612 325 625 525 648 C730 672 890 670 1130 640"/><path class="mid" d="M45 1150 C185 1045 315 945 438 838 C565 728 705 622 900 548 C980 516 1048 475 1135 410"/><path class="mid" d="M-42 515 C140 485 312 470 496 480 C700 492 873 505 1125 480"/><path class="mid" d="M270 -45 C288 148 300 330 300 515 C300 718 320 910 360 1195"/><path class="mid" d="M650 -40 C645 138 650 302 675 492 C700 685 740 870 780 1190"/>
+    </g>
+    <g id="guiyang-ring" aria-label="加粗的环形道路">
+      <path class="ringGlow" d="M535 292 C662 300 773 382 810 500 C846 614 797 744 690 807 C580 873 430 852 340 760 C250 668 235 525 304 414 C354 334 437 288 535 292Z"/>
+      <path class="ringBase" d="M535 292 C662 300 773 382 810 500 C846 614 797 744 690 807 C580 873 430 852 340 760 C250 668 235 525 304 414 C354 334 437 288 535 292Z"/>
+      <path class="ring" d="M535 292 C662 300 773 382 810 500 C846 614 797 744 690 807 C580 873 430 852 340 760 C250 668 235 525 304 414 C354 334 437 288 535 292Z"/>
+      <circle class="pin" cx="535" cy="292" r="10"/><circle class="pin" cx="810" cy="500" r="10"/><circle class="pin" cx="690" cy="807" r="10"/><circle class="pin" cx="340" cy="760" r="10"/>
+      <text class="roadLabel" x="436" y="254">黔灵山路</text><text class="roadLabel" x="828" y="522" transform="rotate(78 828 522)">数博大道</text><text class="roadLabel" x="485" y="866">太金线</text><text class="roadLabel" x="238" y="565" transform="rotate(-73 238 565)">人民大道</text>
+    </g>
+    <path class="main" d="M-20 900 C160 850 300 760 430 645 C560 530 700 455 930 360 C1010 328 1060 302 1110 265"/>
+    <path class="main" d="M40 365 C240 380 430 372 625 390 C800 408 930 405 1110 365"/>
+    <path class="main" d="M188 90 C200 290 195 470 215 650 C238 850 275 1030 322 1260"/>
+    <path class="main" d="M912 120 C872 300 858 470 880 675 C900 870 940 1040 1000 1260"/>
+  </g>
+  <g transform="translate(0 1135)">
+    <text class="label" x="540" y="0" text-anchor="middle" font-size="76" font-weight="800">GUIYANG</text>
+    <line x1="375" y1="34" x2="705" y2="34" stroke="#a76643" stroke-width="2" opacity=".6"/>
+    <text class="small" x="540" y="82" text-anchor="middle" font-size="30">人民大道 · 太金线 · 数博大道 · 黔灵山路</text>
+    <text class="small" x="540" y="126" text-anchor="middle" font-size="22">GUIZHOU · CHINA</text>
+  </g>
+</svg>
